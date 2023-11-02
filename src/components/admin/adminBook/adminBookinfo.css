@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bookinfo_container {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.bookinfo_container .back_link {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: green;
+    margin-left: 5%;
+    padding: 20px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.bookinfo_container .bookcard {
+    width: 40%;
+    height: 850px;
+    margin-left: 30%;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.bookinfo_container .bookcard img {
+    border-radius: 25px;
+    width: 100%;
+
+    height: 500px;
+    background-size: cover;
+}
+
+.bookinfo_container .bookcard p {
+    padding-left: 10px;
+    color: brown;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.bookinfo_container .bookcard p span {
+    font-size: 18px;
+    color: black;
+}
+
+.bookinfo_container .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.bookinfo_container .buttons .update_button2 {
+    background-color: green;
+    font-size: 20px;
+    color: #FFFFFFFF;
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+    
+}
+
+.bookinfo_container .buttons .delete_button2 {
+    width: 20%;
+    color: #FFFFFFFF;
+    background-color: red;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 15px;
+
+    border: none;
+    transition: 0.3s;
+}
+
+.bookinfo_container .buttons .update_button2:hover {
+    width: 22%;
+    height: 60px;
+}
+
+.bookinfo_container .buttons .delete_button2:hover {
+    width: 22%;
+    height: 60px;
+}

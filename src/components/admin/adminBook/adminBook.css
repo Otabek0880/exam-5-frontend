@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   
+    margin-bottom: 20px;
+}
+
+.book_container{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+   
+   
+}
+.booksearch{
+   margin: 0 auto;
+   width: 450px;
+   height: 50px;
+   
+   padding-left: 30px;
+   margin-top: 50px;
+   border-radius: 15px;
+}
+.book_container .addBook{
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 72%;
+}
+
+.book_container .addBook .addBookLink{
+    width: 100px;
+    padding: 15px;
+    background-color: green;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.book_container .books_list{
+    width: 40%;
+    margin-top: 30px;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.book_container .books_list .books{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

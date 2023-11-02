@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main_text {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addbook_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addbook_container .addbook_card {
+    padding-top: 40px;
+    width: 40%;
+    border: 4px solid black;
+    border-radius: 20px;
+   margin-bottom: 10px;
+      
+}
+
+.addbook_container .addbook_card input {
+    width: 50%;
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--gray-30, #B4B4BB);
+    background: var(--White-Base, #FFF);
+    margin-bottom: 20px;
+}
+
+
+.addbook_container .addbook_card select {
+    width: 50%;
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--gray-30, #B4B4BB);
+    background: var(--White-Base, #FFF);
+    margin-bottom: 20px;
+}
+
+.pdf_input {
+   padding: 11px;
+}
+
+.addBook_button{
+    width: 150px;
+    height: 40px;
+    margin-left: 60%;
+    margin-bottom: 20px;
+    background-color: green;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+
+.addBook_button:hover{
+    background-color: rgb(62, 155, 62);
+}

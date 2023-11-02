@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header_profile{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFFFF;
+
+}  
+.header_profile .account{
+   width: 50%;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   border-radius: 4px 0 0 4px;
+}
+.header_profile .security{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius:0 4px 4px 0;
+
+}
+.header_profile .account .profile{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header_profile .account .profile p:nth-child(1){
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(21, 37, 64, 1);
+    border-radius: 4px;
+}
+
+
+.header_profile .account .profile p:nth-child(2){
+   color: rgba(21, 37, 64, 1);
+}
+
+.header_profile .security .security2{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header_profile .security .security2 p:nth-child(1){
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(54, 153, 255, 1);
+    background-color:rgba(229, 234, 238, 1);
+    border-radius: 4px;
+}
+
+.header_profile .security .security2 p:nth-child(2){
+    color: rgba(70, 78, 95, 1);
+}
+
+.header_profile .home{
+    width: 15%;
+    height: 80px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: black;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.header_profile .home:hover{
+    background-color: gray;
+}
+
+.header_profile .home .home_link{
+    text-decoration: none;
+}
+.header_profile .home .home_link p{
+    color: #FFFFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}

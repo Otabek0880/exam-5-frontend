@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.category .category_link{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    text-decoration: none;
+    color: #FFFFFFFF;
+    border-radius: 20px;
+    background-color: red;
+    transition: 0.3s;
+}
+
+.category .category_link:hover{
+    width: 75%;
+    height: 60px;
+    background-color: pink;
+}

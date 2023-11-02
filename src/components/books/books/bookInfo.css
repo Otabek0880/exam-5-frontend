@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bookinfo {
+    width: 100%;
+    height: 100vh;
+}
+
+.bookinfo .singlebook {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.bookinfo .singlebook .img_part img {
+    border-radius: 15px;
+    background-size: cover;
+    width: 319px;
+    height: 90%;
+
+}
+
+.bookinfo .singlebook {
+    display: flex;
+    gap: 56px;
+}
+
+.bookinfo .singlebook .text_part .book_name {
+
+    color: #C9AC8C;
+    font-family: Rotterburg Stylish FREE;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_author {
+    color: #C9AC8C;
+    font-family: Steinbeck;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_pages {
+    margin-top: 40px;
+    color: #FFF;
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_pages span {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_year {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_year span {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_category {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_category span {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Steinbeck;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookinfo .singlebook .text_part .book_description {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Steinbeck;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.4%;
+    /* 23.104px */
+}
+
+.bookinfo .singlebook .text_part .book_description span {
+    color: #C9AC8C;
+    font-family: Steinbeck;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.download_button{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 120px;
+    border-radius: 20px;
+    border: none;
+}

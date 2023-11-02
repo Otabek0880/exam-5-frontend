@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.book img{
+    width: 164px;
+    height: 246px;
+    background-size: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.book img:hover{
+    width: 170px;
+    height: 250px;
+}
+.book .book_link{
+    text-decoration: none;
+}
+
+.book .book_link p:nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(201, 172, 140, 1);
+    
+}
+
+.book .book_link p:nth-child(3){
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    
+}

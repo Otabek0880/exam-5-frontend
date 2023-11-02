@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .img-part {
+    width: 50%;
+    height: 700px;
+  }
+  .signUpimg {
+    width: 500px;
+    height: 500px;
+    margin: 100px 38px;
+    background: rgba(201, 172, 140, 0.93);
+  }
+  .signUp-part {
+    margin-left: 112px;
+  }
+  .signUp-part h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 51px;
+  
+    color: #000000;
+    margin-top: 75px;
+  }
+  .signUp-part p {
+    margin-top: 10px;
+    margin-bottom: 21px;
+  }
+  
+  .signUp-part input {
+    display: block;
+    outline: none;
+    padding: 16px 187px 10px 29px;
+    border: 1px solid #b4b4bb;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  .signUp-part button {
+    width: 400px;
+    height: 46px;
+    margin-top: 34px;
+    color: white;
+    background: #152540;
+    border: none;
+    border-radius: 99px;
+  }
+  

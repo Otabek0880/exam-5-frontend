@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #FFFFFFFF;
+    background: #191919;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.header-left h2{
+    color: rgba(201, 172, 140, 1);
+    margin-left: 20%;
+}
+
+.header-right{
+    display: flex;
+    gap: 50px;
+    margin-right: 5%;
+}
+.header-right .links{
+    
+    display: flex;
+    justify-content: center;
+}
+.header-right .links .signup{
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #191919;
+    background-color: #FFFFFFFF;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.header-right .links .login{
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #191919;
+    background-color: #FFFFFFFF;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.header-right .links .login:hover{
+    background-color: #808080;
+}
+.header-right .links .signup:hover{
+    background-color: #808080;
+}
+
+.header-right .profile .profile{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFFFF;
+}
+.header-right .profile .profile .profile2{
+    font-size: 10px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFFFF;
+}
+
+.header-right .profile .profile .usericon{
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFFFF;
+    border-radius: 50%;
+    margin-right: 5px;
+}
